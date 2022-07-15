@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Job API</title>
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./normalize.css">
+    <!-- styles css -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <form class="form file-form">
+        <h4>Edit Create Job</h4>
+        <p class="form-alert"></p>
+        <!-- single row -->
+        <div class="form-row">
+            <label for="company" class="form-label">company</label>
+            <input type="text" id="company" class="form-input">
+        </div>
+        <!-- end of single row -->
+        <!-- single row -->
+        <div class="form-row">
+            <label for="position" class="form-label">position</label>
+            <input type="position" id="position" class="form-input">
+        </div>
+        <!-- end of single row -->
+        <!-- single row -->
+        <div class="form-row">
+            <label for="password" class="form-label">status</label>
+            <select id="status" class="form-input">
+                <option value="pending">pending</option>
+                <option value="interview">interview</option>
+                <option value="pending">declined</option>
+            </select>
+
+        </div>
+        <!-- end of single row -->
+
+        <button type="submit" class="btn btn-block">Submit</button>
+        <a href="create-job.html">Create Job</a>
+        </div>
+    </form>
+    <section class="container">
+    </section>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+    integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+
+    <script src="./axios.min.js"></script>
+
+    <script src="./edit-jobs.js"></script>
+</body>
+
+</html>
